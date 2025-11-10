@@ -1,11 +1,16 @@
 {
-  "name": "otmyvvpn-backend",
-  "private": true,
-  "type": "module",
-  "dependencies": {},
-  "scripts": {
-    "dev": "vercel dev",
-    "start": "node",
-    "build": "echo 'no build'"
-  }
+    "name": "otmyvvpn-backend",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": "18.x"
+    },
+    "dependencies": {
+        "@vercel/node": "^2.0.0"
+    },
+    "scripts": {
+        "dev": "vercel dev",
+        "start": "node server.js",
+        "build": "echo 'no build'"
+    }
 }
